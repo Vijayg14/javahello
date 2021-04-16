@@ -1,13 +1,11 @@
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
-public class HelloWorld {
-
-  public static void main(final String[] args) {
-    final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
-    final LocalDateTime now = LocalDateTime.now();
-
-    System.out.println("Hello, World! The current time is " + dtf.format(now));
-  }
-
+/* This is a simple Java program.
+FileName : "HelloWorld.java". */
+class HelloWorld
+{
+	// Your program begins with a call to main().
+	// Prints "Hello, World" to the terminal window.
+	public static void main(String args[])
+	{
+		System.out.println("Hello, World");
+	}
 }
